@@ -1,3 +1,3 @@
 # demo
 a demo
-create a index.html according to the psd.
+create an index.html according to the psd.
