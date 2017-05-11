@@ -1,0 +1,221 @@
+/*banner*/
+.banner{
+   position:relative;
+}
+.banner-bg{
+    height:570px;
+    overflow: hidden;
+
+}
+.banner-txt{
+     position:absolute;
+     top:210px;
+     left:50%;
+     margin-left:-388px;
+}
+.txt-logo{
+    width:776px;
+    height:117px;
+    background: url(../images/text-logo.png);
+}
+.txt-info{
+    margin-top: 17px;
+    text-align: center;
+    color:#fff;
+}
+.txt-info .line{
+    display: inline-block;
+    width:40px;
+    border-top:1px solid #fff;
+    vertical-align: middle;
+}
+.txt-info .text{
+     margin:0 27px;
+}
+
+/*menu-list*/
+.menu{
+    height: 596px;
+    border-top: 4px solid #f34949;
+}
+.menu-tips{
+    width: 156px;
+    height:70px;
+    margin:0 auto;
+    background-color: #f34949;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+.menu-tips:after{
+    display: block;
+    content:"";
+    height: 0;
+    width: 0;
+    left:0;
+    bottom: 0;
+    border-left:78px solid transparent;
+    border-right:78px solid transparent;
+    border-bottom:10px solid #fff; 
+}
+.menu-list{
+    
+    margin-top: 80px;
+    
+    width:1224px;
+    overflow: hidden;
+}
+.menu-item{
+  position: relative;
+  float:left;
+  width:492px;
+  margin-right: 116px;
+  margin-bottom: 62px;
+}
+.item-title a{
+  
+   font-size: 16px;
+   color: #555;
+}
+.item-desc{
+   font-size: 12px;
+   color:#b7b7b7;
+}
+.item-line{
+    position:absolute;
+    top:2px;
+    left:230px;
+    width: 192px;
+    height: 1px;
+}
+.item-price{
+    position:absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    color: #656565;
+}
+.menu-more-btn{
+    display:block;
+    width:114px;
+    height:32px;
+    padding-left:16px;
+    margin:20px auto 0;
+    font-size:14px;
+    line-height: 32px;
+    color:#b7b7b7; 
+    border: 1px solid #b7b7b7;
+}
+.icon{
+    display:inline-block;
+    width: 11px;
+    height: 7px;
+    margin-left: 11px;
+    background: url(../images/more-button-icon.gif) no-repeat;
+}
+
+/*index-pannel*/
+.index-pannel-header{
+    margin-top:200px;
+    
+}
+.dishes-title{
+    float:left;
+    margin-right: 48px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #3b3b3b;
+}
+.pannel-line{
+    float: left;
+    width: 200px;
+    height:1px;
+    color: #e5e3e3;
+}
+.btn-group{
+    font-size: 0;
+    float:right;
+}
+.index-pannel-header .btn{
+     display: inline-block;
+     margin-left: 11px;
+     width: 9px;
+     height: 9px;
+     background-color: #dedede;
+     border-radius:50%;
+}
+.index-pannel-header .active{
+    background-color: #9b9b9b;
+}
+.index-food-list{
+    width:1160px;
+}
+
+.food-item{
+    float: left;
+    width: 230px;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+
+.food-item .name{
+    margin-top:29px;
+}
+
+.food-item .price{
+    display:inline-block;
+    float: right;
+}
+.star-bar{
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 0;
+}
+.star-bar .star{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background-image: url(../images/index-star.png);
+    background-repeat: no-repeat;
+}
+.star-bar .nostar{
+    background-position: 0 -13px;
+}
+
+/*pannel2*/
+.pannel-title{
+    float:left;
+    margin-right: 44px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #3b3b3b;
+}
+.index-pics{
+    position: relative;
+    height: 381px;
+    margin-top: 131px;
+    margin-bottom: 200px;
+    overflow: hidden;
+    font-size: 0;
+}
+.index-pannel-body .index-pics a{
+    display: block;
+    
+}
+.index-pics .pic-col{
+    float:left;
+}
+.index-pics .pic-col-m{
+    width:353px;
+}
+
+.index-pics .pic-col-s{
+    width: 287px;
+    font-size: 0;
+}
+
+.index-pics .pic-col-l{
+    width:460px;
+}
+
